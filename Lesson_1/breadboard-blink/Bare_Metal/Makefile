@@ -2,7 +2,7 @@ MCU = atmega328p
 F_CPU = 16000000UL
 PORT = /dev/ttyACM0
 BAUD = 115200
-PROGRAM = on-board-blink
+PROGRAM = breadboard-blink
 
 all: $(PROGRAM).hex
 
