@@ -11,10 +11,8 @@ int main(void) {
 		// set PORTB5
 		PORTB = PORTB | (1 << PORTB5);
 		// wait
-		_delay_ms(300);
 		// unset PORTB5
 		PORTB = PORTB & ~(1 << PORTB5);
 		// wait
-		_delay_ms(300);
 	}
 }
